@@ -5,8 +5,9 @@ This codebook describes the variables, data and the transformation done to the d
 ##Following describes the cleaned dataset saved by the script as merged_clean_data_set.txt:
 
 This dataset has 10299 observation of 68 variables
-The variables are listed below with the line number shown in [] : 
-Note: variables [1] "subject" and [2] "activity"  are used to order the rows.
+The variables are listed below with the line number shown in [], these variables are selected based on "mean" or "std" appearing in the description as per the assignment criteria: 
+
+Note: variables [1] "subject" and [2] "activity"  are used to order the rows of the set.
 
 
  [1] "subject"                   "activity"                  
