@@ -74,4 +74,4 @@
 						  }
 				}
 	## write tidy data set with averages
-	write.table(results, "data_set_with_the_averages.txt")
+	write.table(results, "data_set_with_the_averages.txt", row.names = FALSE)
