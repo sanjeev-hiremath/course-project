@@ -7,6 +7,8 @@ This codebook describes the variables, data and the transformation done to the d
 This dataset has 10299 observation of 68 variables
 The variables are listed below with the line number shown in [] : 
 Note: variables [1] "subject" and [2] "activity"  are used to order the rows.
+
+
  [1] "subject"                   "activity"                  
  [3] "tbodyacc.mean.x"          
  [4] "tbodyacc.mean.y"           "tbodyacc.mean.z"           "tbodyacc.std.x"           
