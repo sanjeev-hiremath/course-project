@@ -2,7 +2,15 @@
 
 This codebook describes the variables, data and the transformation done to the downloaded dataset
 
-##Following describes the cleaned dataset saved by the script as merged_clean_data_set.txt:
+Following clean data files in the format "File_name.txt" are produced by running the R code in a working directory where the raw data is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+"data_set_with_the_averages.txt" and "merged_clean_data_set.txt"
+
+To view the files use following commands (you can chooose any file name to load into as you please) in R studio:
+>cleanedAverageData<- read.table("data_set_with_the_averages.txt")
+> View(cleanedAverageData)
+
+##Following describes the cleaned dataset saved by the script as "merged_clean_data_set.txt":
 
 This dataset has 10299 observation of 68 variables
 The variables are listed below with the line number shown in [], these variables are selected based on "mean" or "std" appearing in the description as per the assignment criteria: 
@@ -35,7 +43,7 @@ Note: variables [1] "subject" and [2] "activity"  are used to order the rows of 
 [64] "fbodybodyaccjerkmag.std"   "fbodybodygyromag.mean"     "fbodybodygyromag.std"     
 [67] "fbodybodygyrojerkmag.mean" "fbodybodygyrojerkmag.std" 
 
-##Following describes the cleaned dataset saved by the script as data_set_with_the_averages.txt:
+##Following describes the cleaned dataset saved by the script as "data_set_with_the_averages.txt":
 
 This dataset has the 180 observations of 68 variables as shown above. This independent tidy data set has the average of each variable for each activity and each subject.
 
